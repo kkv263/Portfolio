@@ -1,0 +1,84 @@
+/* Font */
+@font-face {
+   font-family: 'Hero-Light';
+   src: url(../assets/fonts/Hero-Light.otf);
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+    font-family: 'Dense-Regular';
+    src: url(../assets/fonts/Dense-Regular.otf);
+    font-weight: normal;
+    font-style: normal;
+ }
+
+h1 {
+    font-family: "Hero-Light";
+}
+
+p {
+    font-family: "Dense-Regular";
+    margin:0;
+    margin-top: -15px;
+}
+
+span {
+    font-size: 24px;
+}
+
+li {
+    font-family: "Dense-Regular";
+    list-style-type: none;
+}
+
+
+#slide1{
+    background:url("https://nyc-wpengine.netdna-ssl.com/wp-content/uploads/2016/01/IMG_0067.jpg") 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    width: 50%;
+    float: left;
+}
+
+#slide2{
+    background: url("http://ahdzbook.com/data/out/31/hdwp695404367.jpg") 50% 0 no-repeat fixed;
+    background-size: cover;
+    color: black;
+    height: 100vh;
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+#grey1{
+    /* background-color:#040F16; */
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    width: 50%;
+    float: right;
+}
+
+.slideheader {
+    font-size: 60px;
+    color: #EFEFEF;
+    text-align: center;
+} 
+
+.slideinfo {
+    font-size: 32px;
+    color: #EFEFEF;
+    text-align:center;
+    padding-top: 40px;
+}
+    
+
+
+
+
+
+
+
+
