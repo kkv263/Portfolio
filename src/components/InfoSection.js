@@ -1,4 +1,5 @@
 import React from 'react';
+import { Progress } from 'reactstrap';
 import '../css/InfoSection.css';
 class InfoSection extends React.Component {
     render() {
@@ -27,7 +28,6 @@ class InfoSection extends React.Component {
            <h1 className="slideheader">K N O W L E D G E</h1>
                <div className="slideinfo"> 
                  <ul>
-                 <li>Python</li>  
                  <li>Python</li>  
                  <li>Python</li>  
                  <li>Python</li>  

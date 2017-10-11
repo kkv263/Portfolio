@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import TopBar from './components/AppBar';
+import Header from './components/Header';
 import InfoSection from './components/InfoSection';
 import { Button } from 'reactstrap';
 
@@ -8,8 +9,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Button>hi</Button>
-        <Button color="danger">Danger!</Button>
+        <Header></Header>
         <InfoSection></InfoSection>
       </div>
     );
