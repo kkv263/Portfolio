@@ -7,7 +7,7 @@ class InfoSection extends React.Component {
         <div>
        <div id="slide1"></div>
            <div id="grey1">
-               <h1 className="slideheader">E D U C A T I O N</h1>
+               <h1 className="slideheader">e d u c a t i o n</h1>
                <div className="slideinfo"> 
                   <p>University of Texas at Austin</p>
                   <p>Bachelor of Science and Arts</p>
@@ -25,7 +25,7 @@ class InfoSection extends React.Component {
        <div id="slide2">
        </div>
        <div id="grey1">
-           <h1 className="slideheader">K N O W L E D G E</h1>
+           <h1 className="slideheader">k n o w l e d g e</h1>
                <div className="slideinfo"> 
                  <ul>
                  <li>Python</li>  

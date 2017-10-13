@@ -1,20 +1,21 @@
 /* Font */
 @font-face {
-   font-family: 'Hero-Light';
-   src: url(../assets/fonts/Hero-Light.otf);
-   font-weight: normal;
-   font-style: normal;
-}
-
-@font-face {
     font-family: 'Dense-Regular';
     src: url(../assets/fonts/Dense-Regular.otf);
     font-weight: normal;
     font-style: normal;
  }
 
+ @font-face {
+    font-family: 'MAMMAGAMMA';
+    src: url(../assets/fonts/MAMMAGAMMA.ttf);
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
 h1 {
-    font-family: "Hero-Light";
+    font-family: "MAMMAGAMMA";
 }
 
 p {
