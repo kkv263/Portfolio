@@ -5,20 +5,21 @@ class Projects extends React.Component {
     render() {
       return (
         <div>
-          <div >
-            <Row className="black">
-              <Col xs = "12" lg="6">
+          <div className="black">
+            <h1>projects</h1>
+            <Row >
+              <Col xs = {{ size: 11, offset:1 }} md={{ size:5, offset:1 }}>
                 <img className="block" src="https://dummyimage.com/hd1080"/>
               </Col>
-              <Col  xs = "12" lg="6">
+              <Col xs = {{ size: 11, }} md={{ size:5 }}>
                 <img className="block" src="https://dummyimage.com/hd1080"/>
               </Col>
             </Row>
-            <Row className="black">
-              <Col xs = "12" lg="6">
+            <Row >
+              <Col xs = {{ size: 11, offset:1 }} md={{ size:5, offset:1 }}>
                 <img className="block" src="https://dummyimage.com/hd1080"/>
               </Col>
-              <Col  xs = "12" lg="6">
+              <Col xs = {{ size: 11, }} md={{ size:5 }}>
                 <img className="block" src="https://dummyimage.com/hd1080"/>
               </Col>
             </Row>

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Progress } from 'reactstrap';
 import '../css/InfoSection.css';
 class InfoSection extends React.Component {
     render() {
       return (
-        <div>
+        <div className="infoSection">
         <div id="slide1"></div>
            <div id="grey1">
                <h1 className="slideheader">e d u c a t i o n</h1>
@@ -22,7 +21,10 @@ class InfoSection extends React.Component {
               </div>
           </div>
 
-       <div id="slide2"></div>
+        {/* Last slide should have img tag otherwise use background img in css */}
+       <div id="slide2">
+         <img src ="http://www.standardlife.co.uk/c1/news-and-blog/wp-content/uploads/2016/09/thumbnail-7ffc6892d96921be17a19ced00a632d5.jpeg"/>
+       </div>
        <div id="grey1">
            <h1 className="slideheader">k n o w l e d g e</h1>
                <div className="slideinfo"> 
