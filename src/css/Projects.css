@@ -1,0 +1,15 @@
+.black {
+  padding-top: 50px;
+  background-color:black;
+  height: 550px;
+  width: 100%;
+  margin: 0;
+}
+
+.block {
+  height: 500px;
+  width: 100%;
+  border-width: 10px;
+  border-style: solid;
+  border-color: white;
+}

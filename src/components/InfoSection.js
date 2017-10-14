@@ -5,7 +5,7 @@ class InfoSection extends React.Component {
     render() {
       return (
         <div>
-       <div id="slide1"></div>
+        <div id="slide1"></div>
            <div id="grey1">
                <h1 className="slideheader">e d u c a t i o n</h1>
                <div className="slideinfo"> 
@@ -22,8 +22,7 @@ class InfoSection extends React.Component {
               </div>
           </div>
 
-       <div id="slide2">
-       </div>
+       <div id="slide2"></div>
        <div id="grey1">
            <h1 className="slideheader">k n o w l e d g e</h1>
                <div className="slideinfo"> 
@@ -33,9 +32,8 @@ class InfoSection extends React.Component {
                  <li>Python</li>  
                  </ul> 
                </div> 
-           </div>
-        </div>
-
+       </div>
+       </div>
       )
     }
   };
