@@ -1,0 +1,34 @@
+.footer-container {
+  background-color:black;
+  height: 25vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.fline {
+position: absolute;
+width: 90%;
+margin: 5% 5%;
+height: 1px;
+
+background: rgb(183,183,183);
+background: -moz-linear-gradient(left, rgba(183,183,183,1) 0%, rgba(246,246,246,1) 47%, rgba(183,183,183,1) 100%);
+background: -webkit-linear-gradient(left, rgba(183,183,183,1) 0%,rgba(246,246,246,1) 47%,rgba(183,183,183,1) 100%);
+background: linear-gradient(to right, rgba(183,183,183,1) 0%,rgba(246,246,246,1) 47%,rgba(183,183,183,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7b7b7', endColorstr='#b7b7b7',GradientType=1 );
+}
+
+.iconpadding {
+  margin-top: 80px;
+}
+
+#icon32{
+   height:32px;
+   width:32px;
+}
+
+#inIcon{
+  height:34px;
+  width:45px;
+}
