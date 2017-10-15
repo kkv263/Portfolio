@@ -12,7 +12,8 @@
     font-weight: normal;
     font-style: normal;
   }
-  
+ 
+
 
 h1 {
     font-family: "MAMMAGAMMA";
@@ -76,4 +77,21 @@ li {
     color: #EFEFEF;
     text-align:center;
     padding-top: 40px;
+}
+
+@media screen and (max-width:768px)
+{
+    #grey1{
+        /* background-color:#040F16; */
+        background-color:rgba(0, 0, 0, 0.5);
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        float: initial;
+    }
+    #slide1, #slide2{
+        width: 100%;
+        z-index:-1;
+        float:initial;
+    }
 }
